@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A1A8A12D2CB6BBCE00D0B127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1A8A1122CB6BBCC00D0B127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A8A1192CB6BBCC00D0B127;
+			remoteInfo = BeskidApp;
+		};
+		A1A8A1372CB6BBCE00D0B127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1A8A1122CB6BBCC00D0B127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A8A1192CB6BBCC00D0B127;
+			remoteInfo = BeskidApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1A8A11A2CB6BBCC00D0B127 /* BeskidApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeskidApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A8A12C2CB6BBCE00D0B127 /* BeskidAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeskidAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A8A1362CB6BBCE00D0B127 /* BeskidAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeskidAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A1A8A11C2CB6BBCC00D0B127 /* BeskidApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BeskidApp;
+			sourceTree = "<group>";
+		};
+		A1A8A12F2CB6BBCE00D0B127 /* BeskidAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BeskidAppTests;
+			sourceTree = "<group>";
+		};
+		A1A8A1392CB6BBCE00D0B127 /* BeskidAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BeskidAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1A8A1172CB6BBCC00D0B127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A8A1292CB6BBCE00D0B127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A8A1332CB6BBCE00D0B127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1A8A1112CB6BBCC00D0B127 = {
+			isa = PBXGroup;
+			children = (
+				A1A8A11C2CB6BBCC00D0B127 /* BeskidApp */,
+				A1A8A12F2CB6BBCE00D0B127 /* BeskidAppTests */,
+				A1A8A1392CB6BBCE00D0B127 /* BeskidAppUITests */,
+				A1A8A11B2CB6BBCC00D0B127 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1A8A11B2CB6BBCC00D0B127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1A8A11A2CB6BBCC00D0B127 /* BeskidApp.app */,
+				A1A8A12C2CB6BBCE00D0B127 /* BeskidAppTests.xctest */,
+				A1A8A1362CB6BBCE00D0B127 /* BeskidAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1A8A1192CB6BBCC00D0B127 /* BeskidApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A8A1402CB6BBCE00D0B127 /* Build configuration list for PBXNativeTarget "BeskidApp" */;
+			buildPhases = (
+				A1A8A1162CB6BBCC00D0B127 /* Sources */,
+				A1A8A1172CB6BBCC00D0B127 /* Frameworks */,
+				A1A8A1182CB6BBCC00D0B127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A1A8A11C2CB6BBCC00D0B127 /* BeskidApp */,
+			);
+			name = BeskidApp;
+			packageProductDependencies = (
+			);
+			productName = BeskidApp;
+			productReference = A1A8A11A2CB6BBCC00D0B127 /* BeskidApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1A8A12B2CB6BBCE00D0B127 /* BeskidAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A8A1432CB6BBCE00D0B127 /* Build configuration list for PBXNativeTarget "BeskidAppTests" */;
+			buildPhases = (
+				A1A8A1282CB6BBCE00D0B127 /* Sources */,
+				A1A8A1292CB6BBCE00D0B127 /* Frameworks */,
+				A1A8A12A2CB6BBCE00D0B127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1A8A12E2CB6BBCE00D0B127 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A1A8A12F2CB6BBCE00D0B127 /* BeskidAppTests */,
+			);
+			name = BeskidAppTests;
+			packageProductDependencies = (
+			);
+			productName = BeskidAppTests;
+			productReference = A1A8A12C2CB6BBCE00D0B127 /* BeskidAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1A8A1352CB6BBCE00D0B127 /* BeskidAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A8A1462CB6BBCE00D0B127 /* Build configuration list for PBXNativeTarget "BeskidAppUITests" */;
+			buildPhases = (
+				A1A8A1322CB6BBCE00D0B127 /* Sources */,
+				A1A8A1332CB6BBCE00D0B127 /* Frameworks */,
+				A1A8A1342CB6BBCE00D0B127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1A8A1382CB6BBCE00D0B127 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A1A8A1392CB6BBCE00D0B127 /* BeskidAppUITests */,
+			);
+			name = BeskidAppUITests;
+			packageProductDependencies = (
+			);
+			productName = BeskidAppUITests;
+			productReference = A1A8A1362CB6BBCE00D0B127 /* BeskidAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1A8A1122CB6BBCC00D0B127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A1A8A1192CB6BBCC00D0B127 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A1A8A12B2CB6BBCE00D0B127 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A1A8A1192CB6BBCC00D0B127;
+					};
+					A1A8A1352CB6BBCE00D0B127 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A1A8A1192CB6BBCC00D0B127;
+					};
+				};
+			};
+			buildConfigurationList = A1A8A1152CB6BBCC00D0B127 /* Build configuration list for PBXProject "BeskidApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1A8A1112CB6BBCC00D0B127;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A1A8A11B2CB6BBCC00D0B127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1A8A1192CB6BBCC00D0B127 /* BeskidApp */,
+				A1A8A12B2CB6BBCE00D0B127 /* BeskidAppTests */,
+				A1A8A1352CB6BBCE00D0B127 /* BeskidAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1A8A1182CB6BBCC00D0B127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A8A12A2CB6BBCE00D0B127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A8A1342CB6BBCE00D0B127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1A8A1162CB6BBCC00D0B127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A8A1282CB6BBCE00D0B127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A8A1322CB6BBCE00D0B127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1A8A12E2CB6BBCE00D0B127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1A8A1192CB6BBCC00D0B127 /* BeskidApp */;
+			targetProxy = A1A8A12D2CB6BBCE00D0B127 /* PBXContainerItemProxy */;
+		};
+		A1A8A1382CB6BBCE00D0B127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1A8A1192CB6BBCC00D0B127 /* BeskidApp */;
+			targetProxy = A1A8A1372CB6BBCE00D0B127 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1A8A13E2CB6BBCE00D0B127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1A8A13F2CB6BBCE00D0B127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1A8A1412CB6BBCE00D0B127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeskidApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pwr.krzos.BeskidApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1A8A1422CB6BBCE00D0B127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeskidApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pwr.krzos.BeskidApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1A8A1442CB6BBCE00D0B127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pwr.krzos.BeskidAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeskidApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeskidApp";
+			};
+			name = Debug;
+		};
+		A1A8A1452CB6BBCE00D0B127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pwr.krzos.BeskidAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeskidApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeskidApp";
+			};
+			name = Release;
+		};
+		A1A8A1472CB6BBCE00D0B127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pwr.krzos.BeskidAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeskidApp;
+			};
+			name = Debug;
+		};
+		A1A8A1482CB6BBCE00D0B127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pwr.krzos.BeskidAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeskidApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1A8A1152CB6BBCC00D0B127 /* Build configuration list for PBXProject "BeskidApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A8A13E2CB6BBCE00D0B127 /* Debug */,
+				A1A8A13F2CB6BBCE00D0B127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A8A1402CB6BBCE00D0B127 /* Build configuration list for PBXNativeTarget "BeskidApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A8A1412CB6BBCE00D0B127 /* Debug */,
+				A1A8A1422CB6BBCE00D0B127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A8A1432CB6BBCE00D0B127 /* Build configuration list for PBXNativeTarget "BeskidAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A8A1442CB6BBCE00D0B127 /* Debug */,
+				A1A8A1452CB6BBCE00D0B127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A8A1462CB6BBCE00D0B127 /* Build configuration list for PBXNativeTarget "BeskidAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A8A1472CB6BBCE00D0B127 /* Debug */,
+				A1A8A1482CB6BBCE00D0B127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1A8A1122CB6BBCC00D0B127 /* Project object */;
+}
